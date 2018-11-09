@@ -37,7 +37,7 @@ class DistractionFreeWindowCommand(sublime_plugin.WindowCommand):
             w.set_sidebar_visible(False)
             w.set_tabs_visible(False)
             w.set_minimap_visible(False)
-            # w.set_status_bar_visible(False)
+            w.set_status_bar_visible(False)
         else:
             # Preferences > Settings
             preferences = sublime.load_settings('Preferences.sublime-settings')
@@ -57,4 +57,4 @@ class DistractionFreeWindowCommand(sublime_plugin.WindowCommand):
             w.set_sidebar_visible(True)
             w.set_tabs_visible(True)
             w.set_minimap_visible(True)
-            # w.set_status_bar_visible(True)
+            w.set_status_bar_visible(True)
